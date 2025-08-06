@@ -202,26 +202,37 @@
 <img class="acc" id="pink-bow" src="images/acc/pink-bow.png" alt="broken pink bow. Report ASAP" hidden>
 <img class="acc" id="dog" src="images/acc/dog.png" alt="broken dog. Report ASAP" hidden>
 <img class="acc" id="real-knife" src="images/acc/real-knife.png" alt="broken real knife. Report ASAP" hidden>
+<img class="acc" id="ears" src="images/acc/ears.png" alt="broken ears. Report ASAP" hidden>
+<img class="acc" id="horns" src="images/acc/horns.png" alt="broken horns. Report ASAP" hidden>
+<img class="acc" id="pearls" src="images/acc/pearls.png" alt="broken pearls. Report ASAP" hidden>
+<img class="acc" id="purple-earrings" src="images/acc/purple-earrings.png" alt="broken purple-earrings. Report ASAP" hidden>
+<img class="acc" id="white-earrings" src="images/acc/white-earrings.png" alt="broken white-earrings. Report ASAP" hidden>
 <!-- all shoes -->
 <img class="shoes" id="Frisk-shoes" src="images/shoes/Frisk-shoes.png" alt="broken Frisk shoes. Report ASAP" hidden>
 <img class="shoes" id="pink-shoes" src="images/shoes/pink-shoes.png" alt="broken pink shoes. Report ASAP" hidden>
 <img class="shoes" id="red-shoes" src="images/shoes/red-shoes.png" alt="broken red shoes. Report ASAP" hidden>
 <!-- all overall -->
 <img class="overall" id="Frisk-overall" src="images/overall/Frisk-overall.png" alt="broken Frisk overall. Report ASAP" hidden>
+<img class="overall" id="red-dress" src="images/overall/red-dress.png" alt="broken red dress. Report ASAP" hidden>
+<img class="overall" id="wine-dress" src="images/overall/wine-dress.png" alt="broken wine dress. Report ASAP" hidden>
 <!-- all top -->
 <img class="top" id="default-top" src="images/top/default-top.png" alt="broken default top. Report ASAP">
 <img class="top" id="Chara-top" src="images/top/Chara-top.png" alt="broken Chara top. Report ASAP" hidden>
 <img class="top" id="pink-top" src="images/top/pink-top.png" alt="broken pink top. Report ASAP" hidden>
 <img class="top" id="red-top" src="images/top/red-top.png" alt="broken red top. Report ASAP" hidden>
+<img class="top" id="purple-shells" src="images/top/purple-shells.png" alt="broken purple shells. Report ASAP" hidden>
 <!-- all bottom -->
 <img class="bottom" id="default-bottom" src="images/bottom/default-bottom.png" alt="broken default bottom. Report ASAP">
 <img class="bottom" id="Chara-bottom" src="images/bottom/Chara-bottom.png" alt="broken Chara bottom. Report ASAP" hidden>
 <img class="bottom" id="pink-bottom" src="images/bottom/pink-bottom.png" alt="broken pink bottom. Report ASAP" hidden>
 <img class="bottom" id="red-bottom" src="images/bottom/red-bottom.png" alt="broken red bottom. Report ASAP" hidden>
+<img class="bottom" id="mermaid-tail" src="images/bottom/mermaid-tail.png" alt="broken mermaid tail. Report ASAP" hidden>
 
 <!-- menu box for overall-->
 <div id="menu-overall" style="position: absolute; top:50px; left:250px">
     <button type="button" onclick="makeVisible('Frisk-overall')"> <img src="images/overall/Frisk-overall.png" alt="broken Frisk overall on menu. Report ASAP" height=200px></button>
+    <button type="button" onclick="makeVisible('red-dress')"> <img src="images/overall/red-dress.png" alt="broken red dress on menu. Report ASAP" height=200px></button>
+    <button type="button" onclick="makeVisible('wine-dress')"> <img src="images/overall/wine-dress.png" alt="broken wine dress on menu. Report ASAP" height=200px></button>
 </div>
 <!-- arrows for overall  -->
 <button type="button" class="arrows" onclick="left('menu-overall')" style="position: absolute; top:125px; left:175px"><img src="images/arrows/left.png" alt="broken left arrow. Report ASAP."></button>
@@ -232,6 +243,7 @@
     <button type="button" onclick="makeVisible('Chara-top')"> <img src="images/top/Chara-top.png" alt="broken Chara top on menu. Report ASAP" height=200px></button>
     <button type="button" onclick="makeVisible('pink-top')"> <img src="images/top/pink-top.png" alt="broken pink top on menu. Report ASAP" height=200px></button>
     <button type="button" onclick="makeVisible('red-top')"> <img src="images/top/red-top.png" alt="broken red top on menu. Report ASAP" height=200px></button>
+    <button type="button" onclick="makeVisible('purple-shells')"> <img src="images/top/purple-shells.png" alt="broken purple shells on menu. Report ASAP" height=200px></button>
 </div>
 <!-- arrows for top -->
 <button type="button" class="arrows" onclick="left('menu-top')" style="position: absolute; top:375px; left:175px"><img src="images/arrows/left.png" alt="broken left arrow. Report ASAP."></button>
@@ -242,6 +254,7 @@
     <button type="button" onclick="makeVisible('Chara-bottom')"> <img src="images/bottom/Chara-bottom.png" alt="broken Chara bottom on menu. Report ASAP" height=200px></button>
     <button type="button" onclick="makeVisible('pink-bottom')"> <img src="images/bottom/pink-bottom.png" alt="broken pink bottom on menu. Report ASAP" height=200px></button>
     <button type="button" onclick="makeVisible('red-bottom')"> <img src="images/bottom/red-bottom.png" alt="broken red bottom on menu. Report ASAP" height=200px></button>
+    <button type="button" onclick="makeVisible('mermaid-tail')"> <img src="images/bottom/mermaid-tail.png" alt="broken mermaid tail on menu. Report ASAP" height=200px></button>
 </div>
 <!-- arrows for bottom -->
 <button type="button" class="arrows" onclick="left('menu-bottom')" style="position: absolute; top:625px; left:175px"><img src="images/arrows/left.png" alt="broken left arrow. Report ASAP."></button>
@@ -272,6 +285,11 @@
     <button type="button" onclick="makeVisible('pink-bow')"> <img src="images/acc/pink-bow.png" alt="broken pink bow on menu. Report ASAP" height=200px></button>
     <button type="button" onclick="makeVisible('dog')"> <img src="images/acc/dog.png" alt="broken dog on menu. Report ASAP" height=200px></button>
     <button type="button" onclick="makeVisible('real-knife'); makeVisible('Chara-base'); makeVisible('Chara-hair')"> <img src="images/acc/real-knife.png" alt="broken real knife on menu. Report ASAP" height=200px></button>
+    <button type="button" onclick="makeVisible('ears')"> <img src="images/acc/ears.png" alt="broken ears on menu. Report ASAP" height=200px></button>
+    <button type="button" onclick="makeVisible('horns')"> <img src="images/acc/horns.png" alt="broken horns on menu. Report ASAP" height=200px></button>
+    <button type="button" onclick="makeVisible('pearls')"> <img src="images/acc/pearls.png" alt="broken pearls on menu. Report ASAP" height=200px></button>
+    <button type="button" onclick="makeVisible('purple-earrings')"> <img src="images/acc/purple-earrings.png" alt="broken purple earrings on menu. Report ASAP" height=200px></button>
+    <button type="button" onclick="makeVisible('white-earrings')"> <img src="images/acc/white-earrings.png" alt="broken white earrings on menu. Report ASAP" height=200px></button>
 </div>
 <!-- arrows for acc -->
 <button type="button" class="arrows" onclick="right('menu-acc')" style="position: absolute; top:625px; right:175px"><img src="images/arrows/right.png" alt="broken right arrow. Report ASAP."></button>
